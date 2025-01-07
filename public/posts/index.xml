@@ -2,19 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://lzzk.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <atom:link href="https://lzzk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://lzzk.github.io/posts/test/</link>
+      <link>http://localhost:1313/posts/%E9%87%91%E9%92%B1%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lzzk.github.io/posts/test/</guid>
-      <description>&lt;p&gt;date: &amp;lsquo;2025-01-07T23:32:12+08:00&amp;rsquo;
-draft: false
-title: &amp;lsquo;Test&amp;rsquo;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/%E9%87%91%E9%92%B1%E5%BF%83%E7%90%86%E5%AD%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;date: &amp;ldquo;2025-01-08&amp;rdquo; # 创建时间，我这边生成的格式是 YYYY-MM-DDTHH:mm:ssZ
+tags:
+- 理财
+- 投资
+- 心理学
+title: &amp;ldquo;金钱心理学&amp;rdquo;
+slug: &amp;ldquo;00:10&amp;rdquo; # 自定义 URL 中文章的访问名称，默认用时间戳填充模板格式为X
+share: false  # 配合 Enveloppe插件用的,true表示 obsidian 的文章可以发布
+canonicalURL: &amp;quot;&amp;quot; # 之前文章在其他地方被发布的地址，避免搜索引擎重复，设置了该属性会优先展示 canonicalURL 执行的文章
+keywords:   # 用于 SEO 优化，也可以不配置该内容默认会使用 tags 的内容
+- 金钱心理学
+- 理财
+- 投资
+- 心理学
+description: &amp;quot;&amp;quot; # 文章的描述 SEO 优化，为空时默认会截取文章前面的内容
+series: &amp;ldquo;系列&amp;rdquo; # 系列文章
+lastmod:  # 文章最后更新的时间
+lang: &amp;ldquo;cn&amp;rdquo; # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等
+cover:
+image: &amp;ldquo;&lt;a href=&#34;https://res.weread.qq.com/wrepub/CB_FNz6vb6wM1bT6nX6p07YZ9Dj_parsecover%22&#34;&gt;https://res.weread.qq.com/wrepub/CB_FNz6vb6wM1bT6nX6p07YZ9Dj_parsecover&amp;quot;&lt;/a&gt; # 文章封面图片地址
+author: hugo # 作者名称
+dir: &amp;ldquo;posts&amp;rdquo; # 搭配 Enveloppe 插件设置文章上传的目录&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
