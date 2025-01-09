@@ -56,8 +56,8 @@ jobs:
       # - name: Setup Pages
       #   id: pages
       #   uses: actions/configure-pages@v5
-      # - name: Install Node.js dependencies
-      #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
         
       - name: Build with Hugo
         env:
@@ -75,7 +75,7 @@ jobs:
           
       # run index for searching
       - name: Run Pagefind
-        run: npm_config_yes=true npx pagefind --source "public"
+        run: npm_config_yes=true npx pagefind --site "public" --output-subdir "search"
         
       - name: Deploy
         uses: appleboy/scp-action@master
