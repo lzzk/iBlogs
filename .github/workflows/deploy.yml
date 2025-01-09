@@ -82,7 +82,7 @@ jobs:
         with:
           rm: 'true'
           source: 'public/*'
-          target: '/var/www/iblogs/'
+          target: '/home/ubuntu/www/iblogs/'
           host: ${{ secrets.HOST }}
           key: ${{ secrets.PRIVATE_KEY }}
           username: ${{ secrets.USERNAME }}
