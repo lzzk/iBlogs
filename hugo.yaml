@@ -1,4 +1,5 @@
 baseURL: "https://iblogs.pages.dev/"
+DefaultContentLanguage: zh
 languageCode: zh-cn # en-us
 title: william's blogs 
 pagination.pagerSize: 5    # 首页每页显示的文章数
@@ -26,11 +27,14 @@ permalinks:
 #defaultContentLanguage: zh # 最顶部首先展示的语言页面
 #defaultContentLanguageInSubdir: true
 
-#languages:
-#    zh:
-#      languageName: "Chinese"
-#      # contentDir: content/english
-#      weight: 1
+languages:
+    zh:
+      languageName: "Chinese"
+      # contentDir: content/english
+      weight: 1
+    en:
+      languageName: English
+      weight: 2
 
 menu:
   main:
