@@ -15,7 +15,7 @@ dir: posts
 tags: 
 ---
 
-<iframe height=850 width=90% src="https://newsnow-b2b.pages.dev/" frameborder=0 allowfullscreen> </iframe>
+<iframe height=850 width=90% src="https://news.curiosity.eu.org/" frameborder=0 allowfullscreen> </iframe>
 
 
 
