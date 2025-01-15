@@ -1,6 +1,6 @@
 ---
 date: 2025-01-15
-title: news
+title: 🔥 Breaking Global News! 📰 We've curated the world's top stories just for you. Stay informed! 🌎✨
 slug: 21:06
 share: true
 canonicalURL: ""
